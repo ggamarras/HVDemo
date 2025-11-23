@@ -6,7 +6,7 @@ import org.junit.platform.suite.api.Suite;
 
 @Suite
 @SelectClasspathResource("features")
-@ConfigurationParameter(key = "cucumber.glue", value = "stepdefinition")
+@ConfigurationParameter(key = "cucumber.glue", value = "web/stepdefinition")
 @ConfigurationParameter(key = "cucumber.plugin", value = "pretty, html:target/cucumber-report.html")
 public class RunnerTest {
 }

@@ -1,7 +1,7 @@
-package stepdefinition;
+package web.stepdefinition;
 
 import io.cucumber.java.en.*;
-import step.MiwebSteps;
+import web.step.MiwebSteps;
 
 public class MiwebStepDefinition {
     MiwebSteps steps = new MiwebSteps();
