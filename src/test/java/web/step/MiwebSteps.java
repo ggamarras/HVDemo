@@ -1,6 +1,6 @@
-package step;
+package web.step;
 
-import page.LoginPage;
+import web.page.LoginPage;
 import Util.VaultClient;
 
 public class MiwebSteps {
