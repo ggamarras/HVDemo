@@ -1,11 +1,11 @@
 package web.step;
 
 import Util.Util;
-import web.page.LoginPage;
+import web.page.MiwebPage;
 import Util.VaultClient;
 
 public class MiwebSteps {
-    LoginPage page = new LoginPage();
+    MiwebPage page = new MiwebPage();
 
     public void abrirLogin() {
         page.abrir();
